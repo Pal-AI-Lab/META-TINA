@@ -8,7 +8,10 @@
 `cortico: { kind, api }` 块与关键字,`src/index.ts` 默认导出 `WorldDefinition` 或
 `ProviderModule`,可选控制台面板(`src/console/client.ts` → `dist/console.js`),tests/,
 README,tsconfig 的 `paths` 指向 Cortico checkout。范例:cortico-world-asr。
-[DRAFTED, PENDING CONFIRMATION] v1 只覆盖 world 与 provider 两种 kind;bot 双轨未拍板,不写。
+[EXPERT'S OWN WORDS] kind 三种都做:world、provider、bot。
+[DRAFTED, PENDING CONFIRMATION] 前置事实:框架装载器目前只认 world 与 provider(`src/extensions/manifest.ts`
+的 `EXTENSION_KINDS`);bot 走扩展线的预案在 `deprecated/docs/PLAN-bot-plugin.md`(0911,未拍板,估 300 行内)。
+bot 线的验证回路要等框架落 `kind: "bot"` 才可执行。
 
 ## 2. 用户(Users)
 [DRAFTED, PENDING CONFIRMATION] 带着 coding agent 的开发者,想把 Cortico 接到一个新平台
