@@ -96,6 +96,8 @@ src/worlds/minecraft/README.md 一处指向它的悬空引用与 world.ts / exec
 
 [CONFIRMED] Persona 伸手进 World —— PHILOSOPHY.md World 段「不能调用彼此的程序接口」。
 
+[EXPERT'S OWN WORDS](0912)扩展 bot 不能继承 cormini 这个缺口不补:Cortico 之后会发布 npm 包,到时由包的 exports 接管。bot 线现在按「复制 cormini 再改」写。
+
 ## 文档覆盖对账(0912,Cortico daa7df9)
 
 | 已抽的原则 | 文档里有 | 位置 |
