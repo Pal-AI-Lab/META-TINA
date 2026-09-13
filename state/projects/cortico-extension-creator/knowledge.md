@@ -13,6 +13,12 @@
 
 [DRAFTED, PENDING CONFIRMATION] 推论:Creator 只带两样——一张进 clone 的阅读地图(哪条原则在哪份文件),和 Creator 自己的行为规则(验证回路、内置支持提醒之类);抽出来却不在 Cortico 文档里的原则,写进 Cortico 文档而不是 Creator。
 
+## Creator 的形状(逐项拍板)
+
+[CONFIRMED](专家 0912)扩展包从第一天起是独立 git 仓库,在 Creator 工作区里 gitignored;Creator 的 git 只存档自己的设计记录与日志。理由:Creator 开发完之后正好接着作为维护目录长期存在。
+
+[DRAFTED, PENDING CONFIRMATION] 一个工作区允许多个包(bot 常配一个 World)。
+
 ## 用户按 kind 分层
 
 [EXPERT'S OWN WORDS] provider 是比较有开发经验的人才会做的;World 和 bot 那边纯爱好者很多。
