@@ -55,6 +55,9 @@ into a deeper sub-workspace.
 Commit at milestones (not every change); write commit messages in plain
 language about "what this step did" — they are part of the trail log;
 report to the user in "checkpoint/save" language, not tool jargon (I5).
+A directory under state/ that is a repository of its own (see the
+builder archetype) is gitignored by the workspace and committed on its
+own rhythm; the workspace never treats it as an embedded repository.
 
 ## 8. Separate facts from judgment
 

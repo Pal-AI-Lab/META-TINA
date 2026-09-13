@@ -16,6 +16,15 @@ iterate.
 design/ (design decisions and rationale, one traceable entry each), the
 artifact directory (source or project files), build logs, JOURNAL.md.
 
+The workspace does not end with delivery: it stays on as the artifact's
+maintenance directory, and the loop above keeps running there. So when
+the artifact is something that will live on as a repository of its own
+(a package, a mod, a plugin), it gets its own git from day one, the
+workspace's .gitignore excludes it, and commits inside it follow the
+user's own rhythm. The workspace git then tracks design/ and the journal
+only; the archival trail must not depend on the artifact being nested
+inside it.
+
 ## DoD shape: three-level verification
 
 1. **Build passes** — the toolchain reports no errors;
