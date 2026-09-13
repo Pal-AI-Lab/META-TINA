@@ -7,6 +7,10 @@
 
 [EXPERT'S OWN WORDS] 只写 coding agent 常识决定不了的、Cortico 特有的判断。例:「要不要开引擎子进程」不写,agent 自己会定。
 
+## 用户按 kind 分层
+
+[EXPERT'S OWN WORDS] provider 是比较有开发经验的人才会做的;World 和 bot 那边纯爱好者很多。
+
 ## World
 
 专家的切分:模型可见的一侧(提示词、工具列表描述、工具、工具回执、事件)与模型不可见的一侧(World 内部)。
@@ -46,7 +50,11 @@ src/worlds/minecraft/README.md 一处指向它的悬空引用与 world.ts / exec
 
 ## provider
 
-(待做)
+### 不熟悉的人容易出的问题
+
+[CONFIRMED](我拟、专家 0912 确认)绕开 providers/transport/ 自己写 HTTP、SSE 和重试,结果计量、超时、runaway 判定全没有。
+
+[EXPERT'S OWN WORDS] 不写的:厂商事实硬编码进模块、终态造假(截断 / 取消包装成 completed)——这些是基本开发知识,coding agent 自己会定。
 
 ## bot
 

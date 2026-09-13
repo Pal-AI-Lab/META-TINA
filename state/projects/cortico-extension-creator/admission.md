@@ -21,6 +21,7 @@ world / provider / bot,`EXTENSION_API_VERSION` = 3;三种 kind 共用一份 mani
 [DRAFTED, PENDING CONFIRMATION] 带着 coding agent 的开发者,想把 Cortico 接到一个新平台
 或新端点方言。懂 TypeScript / Node 与目标平台的 API;不懂 Cortico 的四层边界、事件/工具契约、
 面板契约、manifest。代码主要由 agent 写,开发者审。
+[EXPERT'S OWN WORDS] 按 kind 分层:provider 是比较有开发经验的人才会做的;World 和 bot 那边纯爱好者很多。
 
 ## 3. 验证(Verification)
 [DRAFTED, PENDING CONFIRMATION] 三级:包内 `pnpm typecheck` + `pnpm test` 绿,且在 Cortico clone 下
