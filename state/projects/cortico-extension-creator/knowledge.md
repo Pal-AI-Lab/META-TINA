@@ -84,7 +84,7 @@ src/worlds/minecraft/README.md 一处指向它的悬空引用与 world.ts / exec
 | 语义状态归 Memory 经 PWSR | 有 | docs/worlds.md PWSR 节 |
 | 不绕开 providers/transport | 有 | src/providers/README.md「唯一的 HTTP/SSE 引擎」 |
 | bot 三条 | 有 | PHILOSOPHY.md |
-| 提示词 vs 工具 description 的分工 | 无 | 只有 types.ts 一句「更长的用法写进环境提示词模板」 |
-| World 内部状态生命周期变化要投事件 | 无 | |
-| 事件还是工具、即时还是发车刻成文、走哪档 | 半 | docs/worlds.md 列了档位,没写选择依据 |
+| 提示词 vs 工具 description 的分工 | 有(0912 补) | docs/worlds.md 环境提示词节;types.ts tools() 注释 |
+| World 内部状态生命周期变化要投事件 | 有(0912 补) | docs/worlds.md 契约节 |
+| 事件还是工具、即时还是发车刻成文、走哪档 | 有(0912 补) | docs/worlds.md 契约节,触发档位下一段 |
 | 内置支持够用时提醒 | 不该在文档 | Creator 自己的行为 |
