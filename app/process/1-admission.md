@@ -31,12 +31,13 @@ own words so the expert can correct you. Cover these seven areas:
    Can they tolerate each step taking tens of seconds to minutes?
 6. **Environment.** What software must be installed, what services
    connected, what materials prepared?
-7. **Textualization test.** Ask the expert to recount a real time they
-   walked a novice through this: where did they correct the novice? On
-   what basis? — If the expert can articulate the basis for a judgment,
-   the knowledge can be textualized; if they keep coming back to "feel"
-   or "it just looks wrong," discuss honestly: can that part be covered,
-   and if not, how much value does the app still have?
+7. **Textualization test.** Ask directly: what do people unfamiliar
+   with this tend to get wrong, and on what basis do you correct them?
+   (Recounting a real time they walked a novice through it is one way
+   in, not the only one.) — If the expert can articulate the basis for
+   a judgment, the knowledge can be textualized; if they keep coming
+   back to "feel" or "it just looks wrong," discuss honestly: can that
+   part be covered, and if not, how much value does the app still have?
 
 ## Classification
 
