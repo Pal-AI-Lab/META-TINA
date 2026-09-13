@@ -2,7 +2,7 @@
 - Expert: Phant(Cortico 作者)
 - Archetype: primary builder(secondary mentor,待确认)
 - Current phase: admission 与 extraction 按 kind 交错进行(专家 0912 要求,见 Notes);World 线进行中
-- Next step: 三条线的坑已抽完(原则全在 Cortico 文档,Creator 只带阅读地图);验证回路三级定型(干装载已进 Cortico)。剩 Creator 自身的形状:产物放哪、起步文件、语言、钉 commit、范围;然后分类与六项标准结案准入
+- Next step: Creator 自身的形状还剩:语言、钉 commit 与 clone 来源、范围(只新建还是也接现有扩展);然后分类与六项标准结案准入,转 drafting(阅读地图 + 行为规则 + AGENTS.md)
 - Last updated: 2026-09-12
 - Notes:
   - 发布形式已在面谈前定下:独立仓库,Creator 在自己工作区内 clone Cortico 作为构建期依赖(gitignored,钉 commit);网络只用于 clone 与 pnpm install。

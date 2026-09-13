@@ -19,6 +19,10 @@
 
 [DRAFTED, PENDING CONFIRMATION] 一个工作区允许多个包(bot 常配一个 World)。
 
+[CONFIRMED](专家 0912「用 Pi 的做法」)起步文件由 Cortico 提供:templates/extension/{world,provider,bot}/ 各一个能装的最小真包,仓库测试对它们做干装载;不加脚手架命令。Creator 从 clone 里复制。已落地(Cortico 提交见 JOURNAL)。
+
+[DRAFTED, PENDING CONFIRMATION] 参考了 Pi(仓内示例目录)、OpenClaw(CLI 脚手架)、AstrBot(独立模板仓)、Hermes(文档手写 + 示例仓);没有一家在主仓放 templates/。
+
 ## 用户按 kind 分层
 
 [EXPERT'S OWN WORDS] provider 是比较有开发经验的人才会做的;World 和 bot 那边纯爱好者很多。
