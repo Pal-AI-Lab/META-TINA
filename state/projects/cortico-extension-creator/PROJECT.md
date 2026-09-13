@@ -1,8 +1,8 @@
 # cortico-extension-creator
 - Expert: Phant(Cortico 作者)
 - Archetype: primary builder(secondary mentor)
-- Current phase: test drive(第一趟只跑到首次运行,已清场;第二趟待跑)
-- Next step: 第二趟试驾:全新会话打开 workspace/ 说「开始」,选 World 做一个小的走到第三级;取 Cortico 时给本地路径 Desktop/BOT;发现记进 testdrive.md
+- Current phase: test drive 暂停(专家 0912:其余等与 Cortico 一起开源后按反馈迭代);workspace/ 已清场,未发布
+- Next step: 开源时再定:补一趟完整试驾,或按 I6 记录绕过 M4 后发布(版本 1.0.0、独立 git、导出)
 - Last updated: 2026-09-12
 - Notes:
   - 装配检查单(0912):front matter 五字段 OK;协议不变量逐字拷自 app/spec,diff 一致(36 行);描述、目录、应用不变量、完成判据、能力声明、首次运行、语气、存档策略都在;CLAUDE.md / GEMINI.md 各一行指针;三份 README 分别 22 / 9 / 11 行;AGENTS.md 170 行;state 区骨架齐;PENDING 标签两处已由专家确认并清掉(0912)。workspace/ 未 git init(按 4-assembly 第 8 步)。

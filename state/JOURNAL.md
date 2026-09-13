@@ -33,3 +33,8 @@ this file has no dated entries, it is treated as the first run.]
 - What was done this time: 应用户明确要求,把本工作区推送到 https://github.com/Pal-AI-Lab/META-TINA(私有仓库),分支 master 改名 main。按 I6 记录一次绕过:AGENTS.md 原承诺「不连接远程 git 仓库」、存档策略「无偏离」,用户的明确指令覆盖了它;已把远程写进 AGENTS.md 的存档策略与能力声明(I4 改动,单独一笔提交)。另把 app/spec/TINA-SPEC-0.1.md 逐字复制为独立规范仓库 https://github.com/Pal-AI-Lab/ThereIsNoApp,两边 diff 一致。
 - What was decided, and why: 远程只做存档镜像,只在用户明确要求时推送;规范以 Meta TINA 内 app/spec 的文本为准,规范仓库是它的发布副本。
 - Next step: cortico-extension-creator 试驾继续(workspace 已完成首次启动)。
+
+## 2026-09-13 — 两趟试驾的收获,试驾暂停
+- What was done this time: 第一趟只到首次运行,第二趟到选 World;开场白被转述,改成 app/opening.md 原样输出加不变量 C8;试驾建 .git 定为预期行为,5-testdrive.md 加清场一节;Cortico 侧改了 docs/worlds.md 一句错话。
+- What was decided, and why: 专家暂停试驾,等与 Cortico 一起开源后按反馈迭代;workspace/ 清到干净状态,不发布。
+- Next step: 开源时回来:补试驾或记录绕过 M4 后走发布。

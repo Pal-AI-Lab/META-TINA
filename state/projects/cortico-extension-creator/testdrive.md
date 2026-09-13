@@ -14,3 +14,15 @@
 ## 第二趟(待跑)
 
 从「开始」重来,选「编写 Cortico 的扩展」→ World,做一个小 World 走到第三级;取 Cortico 时给本地路径。
+
+## 第二趟(2026-09-12 晚,方法 A)
+
+跑到的地方:选了 World 入口,读完了阅读地图指的文件,还没定包。日志条目一度被外层 git 收进提交,已恢复模板。
+
+发现:
+
+- **degraded** — 开场白没有逐字说,被转述成自己的话(「你好啊,我是 Cortina,陪你给 Cortico 写扩展……」),菜单也改了措辞。处置:开场白原文移到 `app/opening.md`,AGENTS.md 首次运行与启动序列都改成「原样输出这个文件」,加应用不变量 C8「开场白逐字」。
+- **degraded** — 又从 GitHub 取了旧的 master,`templates/extension/` 不在;agent 如实写进日志、没有假称复制了模板,这一点合格。根因同第一趟:本地五笔未推。
+- **polish** — agent 找不到 websearch 与 terminal 的 README:Cortico 的 docs/worlds.md 写「每个 World 目录有自己的 README」,实际只有 bilibili 与 minecraft 有。已改 docs/worlds.md 的措辞。
+
+专家决定:其余不再测,等与 Cortico 一起开源后按反馈迭代。本趟残留(clone、日志)已清。
