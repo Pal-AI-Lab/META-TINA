@@ -12,3 +12,8 @@
 - 这次做了什么:读入口与现有记录;确认 Node v22.23.2、corepack 0.34.6、pnpm 11.5.0、git 2.49.0 与 GitHub 访问可用;建立本工作区独立 git 存档;从声明的 Cortico 仓库 clone 到 state/cortico,corepack pnpm install 成功。
 - 定了什么,为什么:用户尚未选择开发入口,未建立包或设计记录;没有启动 bot 或修改部署。
 - 下一步:请用户描述想做的事,选择 World、provider、bot 或迁移入口,再读对应流程。
+
+## 2026-09-12 — 恢复启动依赖
+- 这次做了什么:恢复记录时发现 state/cortico 与 state/packages 缺失;重新从声明的仓库取回 Cortico,当前提交 eb5fd26;corepack pnpm install 成功,开发工具版本符合要求。
+- 定了什么,为什么:用户本次打招呼,尚未选择开发入口,没有建立包或设计记录。
+- 下一步:请用户描述想做的事,选择扩展、迁移或先了解 Cortico,再读对应流程。
