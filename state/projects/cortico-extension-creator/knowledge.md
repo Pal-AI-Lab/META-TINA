@@ -21,7 +21,15 @@
 
 [CONFIRMED](专家 0912「用 Pi 的做法」)起步文件由 Cortico 提供:templates/extension/{world,provider,bot}/ 各一个能装的最小真包,仓库测试对它们做干装载;不加脚手架命令。Creator 从 clone 里复制。已落地(Cortico 提交见 JOURNAL)。
 
+[CONFIRMED](专家 0912)Creator 的文字用中文;协议不变量按规范保留英文原文。英文版是后一遍。
+
 [DRAFTED, PENDING CONFIRMATION] 参考了 Pi(仓内示例目录)、OpenClaw(CLI 脚手架)、AstrBot(独立模板仓)、Hermes(文档手写 + 示例仓);没有一家在主仓放 templates/。
+
+## 第四种入口:迁移现有 bot 到 Cortico
+
+[EXPERT'S OWN WORDS] 除了三个扩展模式,用户第一次输入之后提供的选项还有一个:迁移现有的 bot 到 Cortico 下。此时 coding agent 应该要求用户提供对应目录,然后进去搞清楚上下文的组织方式、内部语义信息持久化的方式(映射到 Memory)、外部 IO(映射到 World)、会话生命周期一类的基础信息,然后提出一个迁移预案,可能包含实现一个 bot + 一种 Memory + 一个或多个 World。
+
+[DRAFTED, PENDING CONFIRMATION] 迁移完成的判据待定:预案里列出旧 bot 哪些行为迁移后必须还看得见,开发者逐条目击;三个包各自仍走三级验证。
 
 ## 用户按 kind 分层
 

@@ -9,6 +9,7 @@
 `ProviderModule`,可选控制台面板(`src/console/client.ts` → `dist/console.js`),tests/,
 README,tsconfig 的 `paths` 指向 Cortico checkout。范例:cortico-world-asr。
 [EXPERT'S OWN WORDS] kind 三种都做:world、provider、bot。
+[EXPERT'S OWN WORDS](0912)第四种入口:迁移现有 bot 到 Cortico——要目录,读清上下文组织、语义持久化(→Memory)、外部 IO(→World)、会话生命周期,出迁移预案(一个 bot + 一种 Memory + 一个或多个 World)。
 [DRAFTED, PENDING CONFIRMATION](0912 据代码核实,Cortico 71d29bb)前置已满足:`EXTENSION_KINDS` =
 world / provider / bot,`EXTENSION_API_VERSION` = 3;三种 kind 共用一份 manifest 与一条装载线,
 `pnpm check:extension <目录>` 三种都查。bot 包:`deployment.json` 的 `bot` 字段填包名即启用,仓内
