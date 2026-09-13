@@ -23,3 +23,8 @@ this file has no dated entries, it is treated as the first run.]
 - What was done this time: 按 3 × N 抽完三条线的坑与依据;Creator 形状逐项拍板(包自带 git、模板在 Cortico、验证第二级用干装载、中文、跟 master、第四入口迁移);两处摩擦回写进 Meta TINA(准入第 7 问改问法、builder 产物自带 git);Cortico 侧落了四笔(PWSR 进 docs、三条 World 规则进 docs、check:extension 干装载、templates/extension 三个包)。
 - What was decided, and why: 原则不复制进 Creator、从 Cortico 文档现读,因为复制会漂;Creator 只剩阅读地图与行为规则。
 - Next step: 起草文档清单给专家过,然后逐份写。
+
+## 2026-09-12 — 一次写完整个工作区
+- What was done this time: 专家过了文档清单,要求直接全部写完;起草与装配合并,写出 workspace/ 全部 15 个文件;协议不变量逐字拷入并 diff 核对;装配检查单全过,只剩两处 PENDING 标签待专家确认。
+- What was decided, and why: 不开「扩展 bot 继承 cormini」的路,等 Cortico 发 npm 包;Creator 的 bot 线按复制写。
+- Next step: 专家评审;试驾(全新会话,方法 A)。
