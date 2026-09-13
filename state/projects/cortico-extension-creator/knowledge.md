@@ -56,6 +56,10 @@ src/worlds/minecraft/README.md 一处指向它的悬空引用与 world.ts / exec
 
 [EXPERT'S OWN WORDS] 不写的:厂商事实硬编码进模块、终态造假(截断 / 取消包装成 completed)——这些是基本开发知识,coding agent 自己会定。
 
+### 该不该写 provider
+
+[EXPERT'S OWN WORDS] 背后的问题是用 Creator 的人有没有试过内置支持。提醒一下「这个内置支持可以做」就行,不要出现拦截或告诉你不值得的情况。不需要明确的边界,runtime 自己判断内置支持足够的时候提醒一下就行。
+
 ## bot
 
 (待做)
