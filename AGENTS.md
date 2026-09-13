@@ -3,6 +3,7 @@ name: Meta TINA
 description: A meta-app that interviews domain experts and turns their expertise into new TINA apps
 author: TINA Project
 version: 0.1.0
+license: MIT
 tina-spec: "0.1"
 ---
 
