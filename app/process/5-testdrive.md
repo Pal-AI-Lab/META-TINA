@@ -47,6 +47,18 @@ by severity: blocking (doesn't run) / degraded (runs but the experience
 is poor) / polish (wording level). Go back to assembly or drafting to
 fix, then re-run the affected paths.
 
+## Clearing the ground after a drive
+
+A drive leaves a `.git` inside workspace/: its first run initializes one,
+and coding agents often do that on their own when they open a project.
+That is expected. While it exists, this workspace's git treats
+workspace/ as an embedded repository and stops seeing changes inside it.
+So after every drive, before fixing anything: delete workspace/.git,
+delete everything the drive produced in its state area (clones,
+artifacts, journal entries), restore the state templates, and check that
+this workspace's git reports workspace/ changes again. The product's own
+git begins at release (6-release.md), never earlier.
+
 ## Completion criteria
 
 One complete end-to-end pass with no blockers + the expert explicitly
