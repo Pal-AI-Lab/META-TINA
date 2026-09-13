@@ -170,8 +170,12 @@ supplement domain material, and anything retrieved is tagged
 Commitments: no reading or writing files outside this workspace (except
 release export, which requires the expert to specify a location and
 confirm); no sending workspace contents to any remote service; no
-connecting to remote git repositories.
+connecting to remote git repositories other than the archival remote
+declared below.
 
 ## Archival policy
 
-Follows the I5 default policy, no deviations.
+Follows the I5 default policy with one declared deviation: this
+workspace is mirrored to a remote, https://github.com/Pal-AI-Lab/META-TINA
+(declared by the author on 2026-09-12). Pushing to it happens only at the
+user's explicit request; nothing else is sent to any remote service.

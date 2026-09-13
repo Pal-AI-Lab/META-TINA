@@ -28,3 +28,8 @@ this file has no dated entries, it is treated as the first run.]
 - What was done this time: 专家过了文档清单,要求直接全部写完;起草与装配合并,写出 workspace/ 全部 15 个文件;协议不变量逐字拷入并 diff 核对;装配检查单全过,只剩两处 PENDING 标签待专家确认。
 - What was decided, and why: 不开「扩展 bot 继承 cormini」的路,等 Cortico 发 npm 包;Creator 的 bot 线按复制写。
 - Next step: 专家评审;试驾(全新会话,方法 A)。
+
+## 2026-09-12 — 声明远程存档,推送到 GitHub
+- What was done this time: 应用户明确要求,把本工作区推送到 https://github.com/Pal-AI-Lab/META-TINA(私有仓库),分支 master 改名 main。按 I6 记录一次绕过:AGENTS.md 原承诺「不连接远程 git 仓库」、存档策略「无偏离」,用户的明确指令覆盖了它;已把远程写进 AGENTS.md 的存档策略与能力声明(I4 改动,单独一笔提交)。另把 app/spec/TINA-SPEC-0.1.md 逐字复制为独立规范仓库 https://github.com/Pal-AI-Lab/ThereIsNoApp,两边 diff 一致。
+- What was decided, and why: 远程只做存档镜像,只在用户明确要求时推送;规范以 Meta TINA 内 app/spec 的文本为准,规范仓库是它的发布副本。
+- Next step: cortico-extension-creator 试驾继续(workspace 已完成首次启动)。
