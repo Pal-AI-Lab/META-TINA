@@ -1,7 +1,6 @@
 # 准入面谈记录 — cortico-extension-creator
 
-状态:进行中。下面各项是我按 Cortico 仓库与前期讨论预填的理解,每条带来源标签;
-专家逐条确认或改正后才算面谈完成。
+状态:已结案(2026-09-12,专家「好像没问题了」)。预填项逐条在对话里确认过;第 7 问的答案按 3 × N 抽进 knowledge.md。
 
 ## 1. 产物(Artifact)
 [DRAFTED, PENDING CONFIRMATION] 一个符合 Cortico 扩展契约的 npm 包:`package.json` 带
@@ -59,7 +58,13 @@ pnpm install);工作区内的 Cortico clone 做构建期依赖;开发者自己�
 8. 防御性代码、断言 mock 被调用的测试(§4、§5)
 
 ## 分类
-待定。
+[CONFIRMED] builder 主,mentor 辅。builder:核心环是设计 → 实现 → check 与干装载 → 装进实例目击 → 迭代;mentor:开发者的实例是 agent 看不见的现实,第三级验证与迁移预案靠观察式提问。
 
 ## 六项通过标准
-待定。
+[CONFIRMED] 全部通过:
+- 产物边界清楚:三种 kind 各有契约、模板与校验脚本;迁移模式的产物是一份预案加它列出的几个包。
+- 验证回路便宜:前两级 agent 自己闭环(typecheck / test / check:extension 干装载),第三级开发者看一眼实例。
+- 失败可承受:装不上卡片写原因,重做只费时间;唯一不可逆的是密钥进包后发布,归 Creator 的行为规则管。
+- 延迟可容忍:install 与测试分钟级。
+- 状态装得进文本:设计记录与日志在 Creator 的 git,包在自己的 git,Cortico 在 clone。
+- 核心知识可文本化:三条线抽出的原则全在 Cortico 文档里,Creator 只带阅读地图与几条行为规则。

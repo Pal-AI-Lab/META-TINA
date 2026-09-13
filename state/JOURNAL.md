@@ -18,3 +18,8 @@ this file has no dated entries, it is treated as the first run.]
 - What was done this time: 通读 Meta TINA 全部 app/ 文档与 Cortico 侧扩展契约(manifest、装载器、check 脚本、三个扩展点的类型、五个外部扩展包的工具链文件、夹具);改正 admission.md 第 1、3 项里过时的前置事实;给第 7 项列了 8 条候选供专家勾选。
 - What was decided, and why: 无新拍板。发现两处影响设计的框架事实:扩展 bot 不能 import 仓内 bots/cormini(只能复制);第二级验证(装载)今天只有真实实例能证明。
 - Next step: 专家答第 7 项与拍板清单(分类、知识来源、工作区布局、验证回路、bot 线、语言、钉 commit、范围);写六项标准;转 extraction。
+
+## 2026-09-12 — 准入与抽取同日结案,转起草
+- What was done this time: 按 3 × N 抽完三条线的坑与依据;Creator 形状逐项拍板(包自带 git、模板在 Cortico、验证第二级用干装载、中文、跟 master、第四入口迁移);两处摩擦回写进 Meta TINA(准入第 7 问改问法、builder 产物自带 git);Cortico 侧落了四笔(PWSR 进 docs、三条 World 规则进 docs、check:extension 干装载、templates/extension 三个包)。
+- What was decided, and why: 原则不复制进 Creator、从 Cortico 文档现读,因为复制会漂;Creator 只剩阅读地图与行为规则。
+- Next step: 起草文档清单给专家过,然后逐份写。
