@@ -20,6 +20,10 @@
 [EXPERT'S OWN WORDS] 放了一些应该用事件流机制实现的工具:例如被动的状态同步用轮询工具实现,实际上
 应该用 snapshot 类事件实现。
 
+### 模型可见的一侧:决策依据
+
+[CONFIRMED](我拟、专家 0912 确认「你猜的是对的」)一件外界变化怎么进 bot 的上下文:被动发生的是事件,bot 主动要看的是工具;描述「此刻状态」的快照在发车刻成文(pushDeferred),只搭车不发车(piggyback);需要 bot 立刻停手的才打断(preempt)。
+
 ### 模型不可见的一侧(World 内部):与 Cortico 有关、要避免的问题
 
 [EXPERT'S OWN WORDS] 这里有很多和 Cortico 无关的错误模式;有关的主要是下面两条。
