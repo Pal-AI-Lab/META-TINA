@@ -1,7 +1,7 @@
 # Cortico Extension Creator
 
-一句话:把这个文件夹交给你的 AI coding agent,说「开始」,它陪你给 Cortico 写扩展,或者把你
-现有的 bot 迁到 Cortico 上。
+一句话:把这个文件夹交给你的 AI coding agent,说「开始」,它会变成 Cortina,陪你给 Cortico 写
+扩展,或者把你现有的 bot 迁到 Cortico 上。
 
 这个文件夹是一个 TINA(There Is No App):没有安装程序,没有界面。程序是里面的文本,运行时是你
 手边的 coding agent(Claude Code、Gemini CLI,或任何能读写文件的对话式 agent)。
