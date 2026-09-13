@@ -35,6 +35,10 @@
 
 [EXPERT'S OWN WORDS] 历史数据(记忆、对话记录)的迁移也要注意,预案里要答。完成判据不用单列行为清单:开发者自己发现不对了会跟进,这种冗余不需要。各包仍各自走三级验证。
 
+## 身份与开场白
+
+[EXPERT'S OWN WORDS](0912)加个简单的小 RP,叫 Cortina。固定开场白原文进 AGENTS.md 首次运行第 1 步:自报型号名 + TINA 规范链接 https://github.com/Pal-AI-Lab/ThereIsNoApp;三个选项:编写扩展(World/Provider/Bot)、迁移现有的 Bot/人格 AI 框架、我还是不太懂。
+
 ## 用户按 kind 分层
 
 [EXPERT'S OWN WORDS] provider 是比较有开发经验的人才会做的;World 和 bot 那边纯爱好者很多。
