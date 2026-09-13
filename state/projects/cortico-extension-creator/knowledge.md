@@ -3,6 +3,10 @@
 结构:3 × N。三种 kind(world / provider / bot)各一节,每节按专家给的切面分小节;每行带来源标签
 [EXPERT'S OWN WORDS] / [DRAFTED, PENDING CONFIRMATION] / [CONFIRMED]。World 线先做(专家 0912 定)。
 
+## 取舍标准(全局)
+
+[EXPERT'S OWN WORDS] 只写 coding agent 常识决定不了的、Cortico 特有的判断。例:「要不要开引擎子进程」不写,agent 自己会定。
+
 ## World
 
 专家的切分:模型可见的一侧(提示词、工具列表描述、工具、工具回执、事件)与模型不可见的一侧(World 内部)。
