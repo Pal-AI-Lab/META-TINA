@@ -23,6 +23,8 @@
 
 [CONFIRMED](专家 0912)Creator 的文字用中文;协议不变量按规范保留英文原文。英文版是后一遍。
 
+[CONFIRMED](专家 0912)Cortico 来源:https://github.com/Pal-AI-Lab/Cortico,直接跟 master、不钉版本——Creator 里没有能过时的东西(原则、模板、校验脚本全在 clone 里现读)。仓库暂未公开,专家之后会改;公开前 clone 需要专家自己的凭证或本地路径覆盖。
+
 [DRAFTED, PENDING CONFIRMATION] 参考了 Pi(仓内示例目录)、OpenClaw(CLI 脚手架)、AstrBot(独立模板仓)、Hermes(文档手写 + 示例仓);没有一家在主仓放 templates/。
 
 ## 第四种入口:迁移现有 bot 到 Cortico
