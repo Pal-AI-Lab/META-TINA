@@ -7,6 +7,12 @@
 
 [EXPERT'S OWN WORDS] 只写 coding agent 常识决定不了的、Cortico 特有的判断。例:「要不要开引擎子进程」不写,agent 自己会定。
 
+## 知识放哪(本项目特有,专家 0912 定)
+
+[EXPERT'S OWN WORDS] 尽量从文档自动发现设计原则,写进 Creator 反而容易漂移。(只对这个项目;Meta TINA 不用为此改。)
+
+[DRAFTED, PENDING CONFIRMATION] 推论:Creator 只带两样——一张进 clone 的阅读地图(哪条原则在哪份文件),和 Creator 自己的行为规则(验证回路、内置支持提醒之类);抽出来却不在 Cortico 文档里的原则,写进 Cortico 文档而不是 Creator。
+
 ## 用户按 kind 分层
 
 [EXPERT'S OWN WORDS] provider 是比较有开发经验的人才会做的;World 和 bot 那边纯爱好者很多。
@@ -62,4 +68,23 @@ src/worlds/minecraft/README.md 一处指向它的悬空引用与 world.ts / exec
 
 ## bot
 
-(待做)
+### 不熟悉的人容易出的问题(三条都在 PHILOSOPHY.md,Creator 不复制)
+
+[CONFIRMED] 把人格写进代码,而它该在 Memory 里 —— PHILOSOPHY.md「Memory 即人格」。
+
+[CONFIRMED] 用机械规则逼 bot 行动,而默认该是不行为 —— PHILOSOPHY.md「主动性和自由性优先」。
+
+[CONFIRMED] Persona 伸手进 World —— PHILOSOPHY.md World 段「不能调用彼此的程序接口」。
+
+## 文档覆盖对账(0912,Cortico daa7df9)
+
+| 已抽的原则 | 文档里有 | 位置 |
+|---|---|---|
+| 回执 / 事件只陈述事实 | 有 | PHILOSOPHY 诚实的认知论;docs/worlds.md 事件段 |
+| 语义状态归 Memory 经 PWSR | 有 | docs/worlds.md PWSR 节 |
+| 不绕开 providers/transport | 有 | src/providers/README.md「唯一的 HTTP/SSE 引擎」 |
+| bot 三条 | 有 | PHILOSOPHY.md |
+| 提示词 vs 工具 description 的分工 | 无 | 只有 types.ts 一句「更长的用法写进环境提示词模板」 |
+| World 内部状态生命周期变化要投事件 | 无 | |
+| 事件还是工具、即时还是发车刻成文、走哪档 | 半 | docs/worlds.md 列了档位,没写选择依据 |
+| 内置支持够用时提醒 | 不该在文档 | Creator 自己的行为 |
