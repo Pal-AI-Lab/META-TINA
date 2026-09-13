@@ -14,8 +14,8 @@
    - 映射表:旧 bot 的每一块对应 Cortico 的哪一层;
    - 包清单:一个 bot、一种 Memory、一个或多个 World,各自做什么,先做哪个;
    - 历史数据:旧的记忆、对话记录、状态文件搬不搬、搬到哪、怎么转;
-   - 不搬的东西:哪些机制是为旧模型的局限写的,按 PHILOSOPHY.md 的第一条准则当作 fallback
-     保留还是不要了。[PENDING EXPERT CONFIRMATION] 这一项是我拟的。
+   - 为旧模型的局限写的机制:迁移的第一目标是还原,所以照搬,按 PHILOSOPHY.md 的第一条准则标成
+     fallback;要不要去掉是迁移完成之后的事。
    预案由开发者逐项确认或改掉;确认前不动手写包。
 4. **逐包做。** 按 `world.md`、`bot.md` 的流程一个一个来;World 先于 bot,bot 的 `declares` 才有
    东西可写。

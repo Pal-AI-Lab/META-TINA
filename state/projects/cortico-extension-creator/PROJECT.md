@@ -2,10 +2,10 @@
 - Expert: Phant(Cortico 作者)
 - Archetype: primary builder(secondary mentor)
 - Current phase: assembly 完成,待专家评审(drafting 与 assembly 合并,专家 0912 要求「直接全部写完」)
-- Next step: 专家评审 workspace/,清掉两处 [PENDING EXPERT CONFIRMATION](modes/world.md 三问、modes/migrate.md「不搬的东西」);然后试驾:专家在全新会话里打开 workspace/ 说「开始」,扮演开发者做一个小 World
+- Next step: 试驾(方法 A):专家在全新会话里打开 workspace/ 说「开始」,扮演开发者做一个小 World;取 Cortico 时给本地路径 Desktop/BOT;问题记进 testdrive.md
 - Last updated: 2026-09-12
 - Notes:
-  - 装配检查单(0912):front matter 五字段 OK;协议不变量逐字拷自 app/spec,diff 一致(36 行);描述、目录、应用不变量、完成判据、能力声明、首次运行、语气、存档策略都在;CLAUDE.md / GEMINI.md 各一行指针;三份 README 分别 22 / 9 / 11 行;AGENTS.md 170 行;state 区骨架齐;PENDING 标签两处,待专家确认后删。workspace/ 未 git init(按 4-assembly 第 8 步)。
+  - 装配检查单(0912):front matter 五字段 OK;协议不变量逐字拷自 app/spec,diff 一致(36 行);描述、目录、应用不变量、完成判据、能力声明、首次运行、语气、存档策略都在;CLAUDE.md / GEMINI.md 各一行指针;三份 README 分别 22 / 9 / 11 行;AGENTS.md 170 行;state 区骨架齐;PENDING 标签两处已由专家确认并清掉(0912)。workspace/ 未 git init(按 4-assembly 第 8 步)。
   - extraction 六类:决策点、变化轴、坑、质量判据、环境都有;诊断顺序一类按「只写 agent 常识定不了的」规则不另写,扩展页卡片原因与 docs/runs.md 的 logq 已覆盖(待专家在起草评审时确认)。
   - 发布形式已在面谈前定下:独立仓库,Creator 在自己工作区内 clone Cortico 作为构建期依赖(gitignored,钉 commit);网络只用于 clone 与 pnpm install。
   - 流程偏离(专家要求,仅本项目):准入第 7 问与知识抽取合并,按 3 × N 走——三种 kind 各一条线,每条线按专家给的切面分小节,World 先做。理由:一次问一整套对专家太散,按 kind 与切面逐个来更自然。
