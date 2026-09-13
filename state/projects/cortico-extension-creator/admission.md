@@ -27,8 +27,9 @@ world / provider / bot,`EXTENSION_API_VERSION` = 3;三种 kind 共用一份 mani
 [DRAFTED, PENDING CONFIRMATION] 三级:包内 `pnpm typecheck` + `pnpm test` 绿,且在 Cortico clone 下
 `pnpm check:extension <包目录>` 通过;装进真实实例后扩展页卡片显示「已加载」;行为确认(事件进上下文 /
 工具可调用)由开发者在自己的实例上目视。
-[DRAFTED, PENDING CONFIRMATION] 第二级今天只有真实实例能证明:`pnpm dev:console` 的扩展页是假清单,
-不装真包;`check:extension` 只 import 入口核形状,不调 `create()`、不看 `tools()` 撞名。
+[CONFIRMED](专家 0912 拍板「改 Cortico」,已落地 688e11f)第二级由 `check:extension` 的干装载覆盖:World 在假部署下
+`create()`、跑 `tools()` / `envPromptVars()` / `console()`、对照 Core 保留名与内建 World 工具名;provider 按假端点
+`create()`;bot 按假部署 `build()`。agent 自己能闭环的到此为止;真实实例只剩第三级行为目击。
 
 ## 4. 失败代价(Cost of failure)
 [DRAFTED, PENDING CONFIRMATION] 低:装载失败卡片写明原因,重做只花时间。唯一要防的不可逆
